@@ -18,10 +18,11 @@ Choose a plant in the world. Working off a reference, design a grammar that mimi
 
 ## Submission
 
-Wheat Puzzle Solution
+### Wheat Puzzle Solution
 <img src="./wheatPuzzle.png">
 
-Square Puzzle Solution
+
+### Square Puzzle Solution
 <img src="./squaresPuzzle.png">
 
 - Create a pull request against this repository
