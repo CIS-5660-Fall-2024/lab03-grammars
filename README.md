@@ -18,9 +18,17 @@ How about this one? Take a screenshot of your rules.\
 ![image](https://github.com/user-attachments/assets/d50ab11b-8f04-4a1f-bb39-05b70326bead)
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+![image](https://github.com/user-attachments/assets/0add00b6-60fb-47e6-a9a4-8380c2a6b551)
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+
+This is a tree that (kind of) looks like a skull. The Axiom is FXA, where  A is only ever used once to add the top portion of the skull. The F and X are types of branches, where F is a regular banch with a transition and X is a special layer that calls itself once every iteration, along with D and F. D is a 'delay' that stands in for F, so it is replaced with F in the next iteration. This is used to reduce clutter of the branches. Here are a few iterations:
+
+![image](https://github.com/user-attachments/assets/1d987fc6-1d51-4bf9-8cc6-1cf89edc6e69)
+![image](https://github.com/user-attachments/assets/3817c68c-e8c3-4cae-9526-e6edfd5862d6)
+![image](https://github.com/user-attachments/assets/d1c59dda-d10e-40b4-8815-2db8d0c1148f)
+![image](https://github.com/user-attachments/assets/4cd52654-40b2-42ec-a3d2-2998f4238c85)
+![image](https://github.com/user-attachments/assets/769691ba-0b4a-4530-abc6-22a391be9f07)
+![image](https://github.com/user-attachments/assets/12ada25c-4b7d-4c74-be79-2a5d65b599f3)
+![image](https://github.com/user-attachments/assets/e16d4973-94bc-4245-8166-88fc35cdb5b6)
+
+
