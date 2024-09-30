@@ -19,7 +19,7 @@ How about this one? Take a screenshot of your rules.\
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
 
 Solution:
-Axiom: F
+Axiom: +F
 Rule 1: F=F+F-F-F+F
 Angle: 90
 
