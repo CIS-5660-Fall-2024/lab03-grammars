@@ -25,6 +25,24 @@ Choose a plant in the world. Working off a reference, design a grammar that mimi
 ### Square Puzzle Solution
 <img src="./squaresPuzzle.png">
 
+
+### Custom Plant
+<img src="./plant.PNG">
+<img src="./plantLong.PNG">
+
+Axiom:
+S
+
+Rules:
+L=F[F[+F][-F]F[+F][-F]FF][+FFF--FFF][-FFF++FFF]     creates the shape of a single leaf
+
+U=FFFFF                                             creates a straight stem segment
+
+R=U[-L][+L]                                         combines the stem segment with two leaves, pointing off at angles
+
+S=RS                                                makes the structure recursive so further iterations lengthen the vine
+
+
 - Create a pull request against this repository
 - In your readme, list your solutions and format your README nicely
 - Profit
