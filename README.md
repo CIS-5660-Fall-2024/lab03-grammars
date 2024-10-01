@@ -6,7 +6,7 @@ Let's practice using grammars!
 |:--:|:--:|:--:|
 | *iterations=1* | *iterations=2* | *iterations=3* |
 
-Grammar
+### Grammar
 ![](14.jpg)
 
 ## 2. Square grammar puzzle
@@ -15,7 +15,7 @@ Grammar
 |:--:|:--:|:--:|
 | *iterations=1* | *iterations=2* | *iterations=3* |
 
-Grammar
+### Grammar
 ![](24.jpg)
 
 ## 3. Custom plant
