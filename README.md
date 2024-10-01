@@ -1,22 +1,43 @@
 # lab03-grammars
-Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+Let's practice using grammars!
 
 ## 1. Wheat grammar puzzle
-Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
+| ![](11.jpg) | ![](12.jpg) | ![](13.jpg) |
+|:--:|:--:|:--:|
+| *iterations=1* | *iterations=2* | *iterations=3* |
+
+### Grammar
+![](14.jpg)
 
 ## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
+
+| ![](21.jpg) | ![](22.jpg) | ![](23.jpg) |
+|:--:|:--:|:--:|
+| *iterations=1* | *iterations=2* | *iterations=3* |
+
+### Grammar
+![](24.jpg)
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+### Reference Image
+
+![](31.jpg)
+
+| ![](32.jpg) |![](33.jpg) |
+|:--:|:--:|
+| *iterations=3* | *iterations=10* |
+
+### Grammar
+
+![](34.jpg)
+
+### Descrpition
+
+I want to generate a plant with many flowers on it, so I use 2 rules to shape the outline: Rule 1 creates branching patterns, and Rule 2 adds more variation to the lines, leading to a natural, organic appearance.
+
+Rule 1 causes X to generate a recursive pattern, with the current line splitting into multiple branches. The branches diverge at different angles, simulating a plant-like structure.
+
+In Rule 2, F is being replaced with F+\F, meaning after drawing a line, the system will turn right slightly and draw another line. This causes the forward movement to have small deviations, adding complexity to the structure.
+
+Finally, with some angle fine-tuning, it becomes a branch with many flowers, which is exactly what I want.
