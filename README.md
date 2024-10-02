@@ -1,3 +1,16 @@
+# Result
+## Wheat Grammar Puzzle
+![](puzzle1.png)
+![](puzzle1_2.png)
+![](puzzle1_3.png)
+
+## Square Grammar Puzzle
+![](puzzle2.png)
+
+## Custom Coniferous Forest
+![](coniferous forest.gif)
+
+
 # lab03-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
