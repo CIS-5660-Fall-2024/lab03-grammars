@@ -37,12 +37,11 @@ n = 3
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant.
 ### Result
-![image](https://github.com/user-attachments/assets/a53d0e44-ae39-4f4d-adc3-f30636d17063)
+![image](https://github.com/user-attachments/assets/a53d0e44-ae39-4f4d-adc3-f30636d17063)  
 ### Rules
-![image](https://github.com/user-attachments/assets/0bffcf5b-79c9-4586-b092-3c379c40f4e8)
-![image](https://github.com/user-attachments/assets/7c62f030-eb63-452d-8522-4c9a004c47c4)
-![image](https://github.com/user-attachments/assets/ec0dc7e2-820f-4d1e-a8ac-369b8a9e5fd6)
-Here’s a short explanation based on your L-System and the plant structure in the image:
+![image](https://github.com/user-attachments/assets/0bffcf5b-79c9-4586-b092-3c379c40f4e8)  
+![image](https://github.com/user-attachments/assets/7c62f030-eb63-452d-8522-4c9a004c47c4)  
+![image](https://github.com/user-attachments/assets/ec0dc7e2-820f-4d1e-a8ac-369b8a9e5fd6)  
 
 ### Explanation of the Plant Structure
 
