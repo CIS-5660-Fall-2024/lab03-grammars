@@ -8,6 +8,9 @@
 ![](puzzle2.png)
 
 ## Custom Coniferous Forest
+I tried to implement the pattern of coniferous forest. The idea of creating this pattern is to make every branch iteratively grow up branches.
+Therefore, I designed five rules for this pattern:
+![](rules.png)
 ![](coniferousForest.gif)
 
 
