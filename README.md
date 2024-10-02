@@ -1,22 +1,33 @@
-# lab03-grammars
-Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+# lab03-grammars : Lewis Ghrist
 
-## 1. Wheat grammar puzzle
-Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
+## 1. Wheat Grammar Puzzle
+Premise: F : Angle = 20 degrees
+Rule 1: F=FF[+FF]F[+FF]FF+
+![1 iteration](LG_ruleset1_gen1.png)
+![2 iterations](LG_ruleset1_gen2.png)
+![3 iterations](LG_ruleset1_gen3.png)
 
 ## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
+Premise: +F : Angle = 90 degrees
+Rule 1: F=F=F+F-F-F+F
+![1 iteration](LG_ruleset2_gen1.png)
+![2 iterations](LG_ruleset2_gen2.png)
+![3 iterations](LG_ruleset2_gen3.png)
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+Premise 1: FA : 5 Iterations
+Rule 1: A=[+FKB][""F-/K//FB]FF/K//"+AJ
+Rule 2: B=C[+\K\"C]
+Rule 3: C=[+\\"FA][-//""F][+"FA][\\\\"F][-\\A\-""F]+C
+Here J is a bulb shape made with a revolved tear drop shape made with a super formula and K is a secondary L-system:
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+Premise 2: A : 4 Iterations
+Rule 1: A=B""FA
+Rule 2: B=[;+"F][-";F][;+"+F][-;"-F]
+
+![Full Plant](LG_Custom1.png)
+![Detail](LG_Custom2.png)
+
+The reference plant is a Pineapple weed:
+
+![Ref Image](Pineapple_Weed.jpg)
