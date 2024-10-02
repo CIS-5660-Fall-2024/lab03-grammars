@@ -1,3 +1,28 @@
+# Michael Mason Submission
+
+## 1. Wheat
+
+Premise: `FF[-FF]F[-FF]FFA`
+
+Rule 1: `A=-B[-(10)B[-(10)B-(10)B]-B-B-AA]-B-B[-A-AA]`
+
+Rule 2: `B=FF[-FF]F[-FF]FF`
+
+## 2. Square
+
+Premise: `-F`
+Rule 1: `F=F+F-F-F+F`
+
+## 3. Custom
+
+Premise: `FFFFFFFFFB`
+Rule 1: `B=!"FF-[-(20)F+FB]+[+(20)F-FB]+[-(10)F+FB]`
+
+![image](https://github.com/user-attachments/assets/141a4c44-8fc0-4602-8314-84c25bdcbeb1)
+
+... I guess I was going for something like this:
+![image](https://github.com/user-attachments/assets/69b1bdef-8f23-4568-8a58-54a5bdb2776f)
+
 # lab03-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
