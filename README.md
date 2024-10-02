@@ -1,4 +1,7 @@
 # lab03-grammars
+
+Aaron Tian
+
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
@@ -7,14 +10,40 @@ Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in
 <img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
 
+![puzzle](puzzle1.png)
+
 ## 2. Square grammar puzzle
 How about this one? Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
 <img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
 
+![puzzle](puzzle2.png)
+
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+
+![plant](plant.png)
+
+This is supposed to somewhat resemble those thick, viny branches that grow on top of pergolas (those things you see in outdoor gardens).
+
+Reference: 
+
+![pergola](pergola.jpg) 
+
+Rules: 
+
+* `Y=F[&-F]F[^+F]`: A random singular branch. Goes forward, rotates and goes forward for side branch, goes foward, then does the same thing in another direction
+* `X=--FF[++^X]+[&YX]FJ:0.6`: Grows forward a bit, rotates and then recurses, then grows forward again, maybe rotates in a different direction, planting `Y` before recursing (to try break up the pattern), before then going forward again and placing a bulb (sphere). To try to break up the pattern even more there is only a 60% chance that the recursion will happen.
+
+5 iterations
+![5](it5.png)
+
+10 iterations
+![10](it10.png)
+
+15 iterations
+![15](it15.png)
 
 ## Submission
 - Create a pull request against this repository
