@@ -48,10 +48,11 @@ The reference plant was thyme:
 
 <img width="600" src="https://github.com/user-attachments/assets/1fba5754-432e-4d0c-aca0-2c3ee0b0d870">
 
-I mainly attempted to imitate the stubbiness of the thyme leaves and how they branch from the stem.
+I mainly attempted to imitate the stubbiness of the thyme leaves and how they branch in two directions from the stem.
 I took creative liberty in the arrangement and growth of the stems themselves.
 
 Rule 1 for `X` creates the arcing stem at the bottom of the plant.
 From that stem, Rule 2 for `Y` is responsible for the branches of small and dense thyme leaves, as well as recursively creating new arcing stems for added complexity.
 The plant at iterations n = 2, 3, 4 show how initially sparse the plant is. Notice how the bottom stem arcs as n increases, as well as how the branches from the stem grow.
-The density of the leaves increases so that n = 6, 7 best match the reference image while by n = 8, the plant has become so dense and complex that it achieves a wheat-like aesthetic.
+The density of the leaves increases so that n = 6, 7 best match the reference image.
+By n = 8, the plant has become so dense and complex that it achieves a wheat-like aesthetic.
