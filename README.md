@@ -11,6 +11,7 @@ Rule 2: `B=FF[-FF]F[-FF]FF`
 ## 2. Square
 
 Premise: `-F`
+
 Rule 1: `F=F+F-F-F+F`
 
 ## 3. Custom
