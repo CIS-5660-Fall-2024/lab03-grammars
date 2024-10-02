@@ -1,3 +1,19 @@
+# Result
+## Wheat Grammar Puzzle
+![](puzzle1.png)
+![](puzzle1_2.png)
+![](puzzle1_3.png)
+
+## Square Grammar Puzzle
+![](puzzle2.png)
+
+## Custom Coniferous Forest
+I tried to implement the pattern of coniferous forest. The idea of creating this pattern is to make every branch iteratively grow up branches.
+Therefore, I designed five rules for this pattern:
+![](rules.png)
+![](coniferousForest.gif)
+
+
 # lab03-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
