@@ -1,22 +1,27 @@
 # lab03-grammars
-Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+
+Team members: Crystal Jin and Sirui Zhu
 
 ## 1. Wheat grammar puzzle
-Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
+
+![Screenshot 2024-10-02 131723](https://github.com/user-attachments/assets/3144464b-3068-426f-bcf3-e790447bf675)
+![Screenshot 2024-10-02 131741](https://github.com/user-attachments/assets/dbe3c2fa-fc18-4f43-9a1e-4833ef463681)
 
 ## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
+
+![Screenshot 2024-10-02 134441](https://github.com/user-attachments/assets/e0bb43ca-b4ff-48f8-b8b9-2e2490eded9a)
+![Screenshot 2024-10-02 134447](https://github.com/user-attachments/assets/2395b656-b324-4202-881a-2cbca0a46ad6)
+
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+reference picture: https://media.istockphoto.com/id/133997766/photo/giant-old-tree.jpg?s=612x612&w=0&k=20&c=zsMsuXXDaKu6Ej80sWh-z9giNMTZLRwW0f9egeYYgVM=
+![Screenshot 2024-10-02 153102](https://github.com/user-attachments/assets/f4c64829-aa63-4861-917b-9883f08a451d)
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+result:
+![Screenshot 2024-10-02 152833](https://github.com/user-attachments/assets/011c1c64-e6fb-4923-a567-161014f65d0f)
+
+rules:
+![Screenshot 2024-10-02 152846](https://github.com/user-attachments/assets/1a7bb86b-ede4-4305-a989-76d9b5dae40a)
+
+rules reference:
+The Algorithmic Beauty of Plants p.56
