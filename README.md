@@ -17,6 +17,32 @@ How about this one? Take a screenshot of your rules.\
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
 ## Submission
+
+### Wheat Puzzle Solution
+<img src="./wheatPuzzle.png">
+
+
+### Square Puzzle Solution
+<img src="./squaresPuzzle.png">
+
+
+### Custom Plant
+<img src="./plant.PNG">
+<img src="./plantLong.PNG">
+
+Axiom:
+S
+
+Rules:
+L=F[F[+F][-F]F[+F][-F]FF][+FFF--FFF][-FFF++FFF]     creates the shape of a single leaf
+
+U=FFFFF                                             creates a straight stem segment
+
+R=U[-L][+L]                                         combines the stem segment with two leaves, pointing off at angles
+
+S=RS                                                makes the structure recursive so further iterations lengthen the vine
+
+
 - Create a pull request against this repository
 - In your readme, list your solutions and format your README nicely
 - Profit
