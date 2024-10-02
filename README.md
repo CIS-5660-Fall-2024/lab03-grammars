@@ -18,10 +18,24 @@ reference picture: https://media.istockphoto.com/id/133997766/photo/giant-old-tr
 ![Screenshot 2024-10-02 153102](https://github.com/user-attachments/assets/f4c64829-aa63-4861-917b-9883f08a451d)
 
 result:
+
 ![Screenshot 2024-10-02 152833](https://github.com/user-attachments/assets/011c1c64-e6fb-4923-a567-161014f65d0f)
 
 rules:
+
 ![Screenshot 2024-10-02 152846](https://github.com/user-attachments/assets/1a7bb86b-ede4-4305-a989-76d9b5dae40a)
+
+We created a fractal-like tree structure for our custom plant. The plant is built iteratively, using a set of production rules to create increasingly intricate patterns.
+
+ The axiom of the L-system begins the recursive process.
+
+Rule 1 essentially splits the current branch into two smaller branches, one turning downwards and one continuing with a reduced size.
+
+Rule 2 generates additional sub-branches, introducing more complexity by adjusting angles and lengths.
+
+Rule 3  behaves similarly to Rule 2 but changes the branching direction. Together with Rule 2, it helps balance the structure.
+
 
 rules reference:
 The Algorithmic Beauty of Plants p.56
+
