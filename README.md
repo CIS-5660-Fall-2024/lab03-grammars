@@ -45,7 +45,7 @@ I ended up with this grammar:
 - Rule 2: `B=&FFF[^^^^FF]FFFA`
 - Rule 3: `C=&&&FFFBA """" B`
 
-A couple of generations:
+A couple of generations (click the image to see full resolution, they're kinda small in the README):
 
 | 7 generations | 10 generations | 14 generations |
 |---------------|----------------|----------------|
