@@ -29,4 +29,4 @@ Rule 2: B=[;+"F][-";F][;+"+F][-;"-F]
 ![Detail](LG_Custom2.png)
 
 The reference plant is a Pineapple weed:
-![Ref Image](Pineapple Weed.JPG)
+![Ref Image](Pineapple_Weed.jpg)
