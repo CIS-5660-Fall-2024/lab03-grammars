@@ -9,6 +9,7 @@ Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in
 - Axiom: F
 - Rule: F=FFF[+FF]F[+FF]FF+
 - 20 deg
+- <img width="499" alt="image" src="https://github.com/user-attachments/assets/3c3fe231-bc94-47c0-bb03-01182adb17b2">
 
 ## 2. Square grammar puzzle
 How about this one? Take a screenshot of your rules.\
@@ -19,6 +20,8 @@ How about this one? Take a screenshot of your rules.\
 - Axiom: +F
 - Rule; F=F+F-F-F+F
 - 90 deg
+- <img width="715" alt="image" src="https://github.com/user-attachments/assets/585a0bdc-3548-4414-a733-b605fd6c2053">
+
 
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
