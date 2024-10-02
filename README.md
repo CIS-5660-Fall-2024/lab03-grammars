@@ -18,17 +18,17 @@ How about this one? Take a screenshot of your rules.\
 ![image](https://github.com/user-attachments/assets/d50ab11b-8f04-4a1f-bb39-05b70326bead)
 
 ## 3. Custom plant
-![image](https://github.com/user-attachments/assets/0add00b6-60fb-47e6-a9a4-8380c2a6b551)
+![image](https://github.com/user-attachments/assets/929c1c57-d1af-446e-99b3-6756355d6c83)
+
+Here are my rules:
+
+![image](https://github.com/user-attachments/assets/2076aa62-32ad-4514-a9aa-ea8fac8509b5)
 
 
-This is a tree that (kind of) looks like a skull. The Axiom is FXA, where  A is only ever used once to add the top portion of the skull. The F and X are types of branches, where F is a regular banch with a transition and X is a special layer that calls itself once every iteration, along with D and F. D is a 'delay' that stands in for F, so it is replaced with F in the next iteration. This is used to reduce clutter of the branches. Here are a few iterations:
+This is a short tree, so we start with F and then A. A creates multiple branches going upwards and then circling around the upper one, where the upwards branch is C, the other ones are B. The C is just FFA (as the branches are quite long compaed to the bottom part), and B is &FFA as we want a small dip for the sideways-leaning branches. Here are a few generations:
 
-![image](https://github.com/user-attachments/assets/1d987fc6-1d51-4bf9-8cc6-1cf89edc6e69)
-![image](https://github.com/user-attachments/assets/3817c68c-e8c3-4cae-9526-e6edfd5862d6)
-![image](https://github.com/user-attachments/assets/d1c59dda-d10e-40b4-8815-2db8d0c1148f)
-![image](https://github.com/user-attachments/assets/4cd52654-40b2-42ec-a3d2-2998f4238c85)
-![image](https://github.com/user-attachments/assets/769691ba-0b4a-4530-abc6-22a391be9f07)
-![image](https://github.com/user-attachments/assets/12ada25c-4b7d-4c74-be79-2a5d65b599f3)
-![image](https://github.com/user-attachments/assets/e16d4973-94bc-4245-8166-88fc35cdb5b6)
-
-
+![image](https://github.com/user-attachments/assets/9e82b08a-f503-4aee-8907-23c8528e48f9)
+![image](https://github.com/user-attachments/assets/55df4d4c-18e4-4718-ac25-6913c8305f04)
+![image](https://github.com/user-attachments/assets/2c43c3ed-9d86-4e8e-a888-d7b3d97cc4c7)
+![image](https://github.com/user-attachments/assets/bc6f73db-f3f0-4d16-84b8-2c122b95b2f4)
+![image](https://github.com/user-attachments/assets/e8299006-723f-4150-b933-cc09c09c0cfa)
