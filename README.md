@@ -8,7 +8,7 @@
 ![](puzzle2.png)
 
 ## Custom Coniferous Forest
-![](coniferous forest.gif)
+![](coniferousForest.gif)
 
 
 # lab03-grammars
