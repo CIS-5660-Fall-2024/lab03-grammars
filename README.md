@@ -11,11 +11,11 @@ Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in
 ![image](https://github.com/user-attachments/assets/c9ef6597-9be7-4f98-858e-58a86dc9cd01)
 ### Result
 n = 1  
-![image](https://github.com/user-attachments/assets/43239282-8cf4-485e-af7d-a2a72379a4fe)
+![image](https://github.com/user-attachments/assets/43239282-8cf4-485e-af7d-a2a72379a4fe)  
 n = 2  
-![image](https://github.com/user-attachments/assets/55732a60-d67e-475f-88a9-d6142c66f738)
+![image](https://github.com/user-attachments/assets/55732a60-d67e-475f-88a9-d6142c66f738)  
 n = 3  
-![image](https://github.com/user-attachments/assets/0bd4ca73-2441-4cbb-8171-33fb57df04ef)
+![image](https://github.com/user-attachments/assets/0bd4ca73-2441-4cbb-8171-33fb57df04ef)  
 
 ## 2. Square grammar puzzle
 How about this one? Take a screenshot of your rules.\
@@ -28,11 +28,11 @@ How about this one? Take a screenshot of your rules.\
 ![image](https://github.com/user-attachments/assets/4b23c6a2-e938-4025-9a86-618721e6df03)
 ### Result
 n = 1  
-![image](https://github.com/user-attachments/assets/e853d0f5-0ee0-4b45-ac74-924a72955795)
+![image](https://github.com/user-attachments/assets/e853d0f5-0ee0-4b45-ac74-924a72955795)  
 n = 2  
-![image](https://github.com/user-attachments/assets/7d3a240c-5599-43b9-bdb3-71df6b6730fa)
+![image](https://github.com/user-attachments/assets/7d3a240c-5599-43b9-bdb3-71df6b6730fa)  
 n = 3  
-![image](https://github.com/user-attachments/assets/5fa37395-d343-463a-92d1-a64c04a75e79)
+![image](https://github.com/user-attachments/assets/5fa37395-d343-463a-92d1-a64c04a75e79)  
 
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant.
