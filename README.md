@@ -1,5 +1,33 @@
-# lab03-grammars
+# lab03-grammars - Annie Qiu
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+
+# Results
+## Wheat grammar puzzle
+![](./01-01.png)
+
+![](./01-02.png)
+
+![](./01-03.png)
+- Premise: F
+- Rule: F = FF + [FF] - FF + [FF] - FF +
+
+## Square grammar puzzle
+![](./02-01.png)
+
+![](./02-02.png)
+
+![](./02-03.png)
+- Premise: -F
+- Rule: F =  F - F + F + F - F
+## Custom plant - Tree with Flower
+![](./03-01.png)
+
+![](./03-02.png)
+
+![](./03-03.png)
+- Premise: FFFA
+- Rule: A = FF /// [&&FFA[J]] - [FF /// [^^FFA[K]] - \\\[^FFA[J]]] + [FF \\\[^FFA[K]]]
+- I used a tree as my reference and aimed to enhance its complexity by designing the L-system in 3D space while adding flowers as components. First, rather than only rotating branches along the y-axis, I introduced rotations around the z-axis using the / and \ symbols and x-axis using the ^ and &, which allows the branches to spread more naturally in three dimensions. Next, I generated smaller branches from the main trunk to place flowers around them by utilizing input nodes ([K] and [J]). Lastly, to create a more lifelike tree, I increased the thickness of the branches and applied different colors to various flowers for added realism.
 
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
