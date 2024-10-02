@@ -12,6 +12,10 @@ I chose to create a creosote bush, which is native to the Mojave desert.
 
 <img width="200" alt="creosote" src="creosote.jpg">
 
+<img width="200" alt="creosote" src="sol3.png">
+<img width="200" alt="creosote" src="creo1.png">
+<img width="200" alt="creosote" src="creo2.png">
+
 Rule 1: X → X=[+F[+X][-X]FX][-F[+X][-X]FX]FFX
 
 Purpose: Models the main symmetric branches of the bush, where I wanted each branch to have 2 little forks to simulate how wide the plant is.
