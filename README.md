@@ -2,18 +2,20 @@
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
-<img width="200" alt="square1" src="sol1.png">
+<img width="400" alt="square1" src="sol1.png">
 
 ## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
+<img width="400" alt="square2" src="sol2.png">
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+I chose to create a creosote bush, which is native to the Mojave desert.
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+<img width="200" alt="creosote" src="creosote.jpg">
+
+Rule 1: X → X=[+F[+X][-X]FX][-F[+X][-X]FX]FFX
+
+Purpose: Models the main symmetric branches of the bush, where I wanted each branch to have 2 little forks to simulate how wide the plant is.
+
+Rule 2: F → FF
+
+Purpose: Simulates the height of the main middle branch and other sub branches by just drawing straight up twice.
