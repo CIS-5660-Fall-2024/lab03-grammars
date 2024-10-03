@@ -22,11 +22,19 @@ How about this one? Take a screenshot of your rules.\
 - 90 deg
 - <img width="715" alt="image" src="https://github.com/user-attachments/assets/585a0bdc-3548-4414-a733-b605fd6c2053">
 
-
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+tomato plant (sort of, I slightly dont know what i did)
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+<img width="691" alt="image" src="https://github.com/user-attachments/assets/5b74bbe8-e639-4609-87c7-dd5a7b3afd0b">
+<img width="407" alt="image" src="https://github.com/user-attachments/assets/d0bc8b91-e1df-492d-963d-b91ea8282e7a">
+
+Most of my rules are just me messing around in Houdini until something worked
+- The premise is simply a stem going forward, then four leaves rotated around by 90, and then continued by X
+- The A rule builds a leaf, angling a forward vine up and then placing the leaf
+- X: To make the branches for each tomato vine, we move forward, go off on a tiny branch to make a leaf, go back then move forward, save three times to build each tomato vine, and then move forward
+- B: To build the tomato, we make two tomatoes branch off, go forward, and then repeat but slightly tipped over
+
+Special thanks to Lewis Ghrist for helping me make the leaves.
+
+Reference:
+![image](https://github.com/user-attachments/assets/1df09853-0b08-464a-8df1-3baa865fc092)
