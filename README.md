@@ -1,5 +1,5 @@
 # lab03-grammars
-Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+I worked with Jill Rayca on this lab.
 
 ## 1. Wheat grammar puzzle
 <img width="400" alt="square1" src="sol1.png">
@@ -8,7 +8,7 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 <img width="400" alt="square2" src="sol2.png">
 
 ## 3. Custom plant
-I chose to create a creosote bush, which is native to the Mojave desert.
+We chose to create a creosote bush, which is native to the Mojave desert.
 
 <img width="200" alt="creosote" src="creosote.jpg">
 
