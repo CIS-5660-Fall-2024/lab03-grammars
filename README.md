@@ -8,6 +8,7 @@
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
 
 ### Solution: `F=FF[+F]F[+F]F+`
+![](./wheat.png)
 
 ## 2. Square grammar puzzle
 \
@@ -16,11 +17,10 @@
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
 
 ### Solution: `F=F-F+F+F-F`
+![](./square.png)
 
-## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+## 3. Acacia Tree
+![](./acaciaImg.jpg)
+The goal is to mimic an acacia tree. The main challenge is to make a flatten top with random branches. Therefore, I used different conditions to restrct the growth when the y coordinate is above certain threshold and when the arc length is greater than certain value.
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+![](./acacia.png)
