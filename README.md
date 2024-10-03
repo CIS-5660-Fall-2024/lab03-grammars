@@ -25,6 +25,8 @@ How about this one? Take a screenshot of your rules.\
 
 ![image](https://github.com/user-attachments/assets/ee9858d1-94c9-4183-a7b2-4d4ae8a7e5a3)
 
+The general structure of the tree is as follows: moves forward, then create a left and right branch with slightly varying/flipped rotation to avoid total symmetry. I also used the symbol 'K' to introduce sphere geometry to my tree that represents fruits. The tree grows fruits at the top of each branch.
+
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
 ## Submission
