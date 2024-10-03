@@ -1,3 +1,5 @@
+Team members: Sirui Zhu and Crystal Jin
+
 1. ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
@@ -9,6 +11,8 @@
 3.
 ![alt text](image-10.png)
 https://primitivepineapplecollection.com/products/bethany-lowe-inspired-handcrafted-usa-german-style-goose-feather-tree-w-red-berries-8-copy
+
+Iterations: 
 Iteration: 1
 ![alt text](image-7.png)
 
