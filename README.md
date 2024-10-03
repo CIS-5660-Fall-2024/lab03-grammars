@@ -9,7 +9,21 @@ by Andrew Ding
 ![rules_1](images/p1rules.png)
 
 2. with an angle of 90 degrees,
+
 ![rules_2](images/p2rules.png)
+
+3.
+
+I chose the dragon blood tree.
+
+reference:
+![ref_3](images/p3ref.png)
+
+rules for generation:
+![rules_3](images/p3rules.png)
+
+generated attempt:
+![gen_3](images/p3result.png)
 
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
